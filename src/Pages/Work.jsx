@@ -4,7 +4,7 @@ import Card from "../Components/Card";
 import { dark, orange } from "./Navbar";
 
 const Work = () => {
-  const arr = new Array(6).fill(0)
+  const arr = new Array(10).fill(0)
   return (
     <Box pt="100px" mt="-20px" h="auto" bg={dark} pb="40px">
       <Box textAlign="center">

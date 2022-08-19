@@ -38,7 +38,7 @@ const Home = () => {
               />
             </Text>
           </Box>
-
+        <a style={{textDecoration:"none"}} target="#" href="https://drive.google.com/file/d/1pWtbmMwNKwva6Yi773Hdxww43xVJnijP/view?usp=sharing">
           <Button
             _hover={{ colorScheme: { orange }, variant: "outline" }}
             h="45px"
@@ -53,11 +53,12 @@ const Home = () => {
           >
             Resume
           </Button>
+          </a>
         </Box>
       </Flex>
       <Flex w="30%" justifyContent="center" alignItems="center">
-        <Box w="70%" h="300px" rounded="50%" bg="orange">
-          <Image src="../Components/Images/akhilbg.png" />
+        <Box w="70%" h="295px" rounded="50%" bg="orange" overflow="hidden">
+          <Image ml="20px"  src="https://i.ibb.co/wQn81r0/akhilbg.png" />
         </Box>
       </Flex>
     </Flex>

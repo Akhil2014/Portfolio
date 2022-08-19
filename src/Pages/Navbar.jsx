@@ -142,6 +142,7 @@ const Navbar = () => {
             Contact
           </Link>
         </Text>
+        <a style={{textDecoration:"none" , color:"white"}} target="#" href="https://drive.google.com/file/d/1pWtbmMwNKwva6Yi773Hdxww43xVJnijP/view?usp=sharing">
         <Text
           _hover={{
             bg: orange,
@@ -154,6 +155,7 @@ const Navbar = () => {
         >
           Resume
         </Text>
+        </a>
       </Flex>
     </Flex>
   );
