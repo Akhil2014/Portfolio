@@ -1,7 +1,6 @@
 import { Box, Flex, textDecoration } from "@chakra-ui/react";
 import React, { useState } from "react";
 import { Link } from "react-scroll";
-import { Heading } from "@chakra-ui/react";
 import { Text } from "@chakra-ui/react";
 export const dark = "#0f1624";
 export const darkSecond = "#1a202c";
@@ -42,7 +41,7 @@ const Navbar = () => {
         justifyContent="center"
         alignItems="center"
       >
-        <Text fontSize="40px">
+        <Text id="icon" fontSize="40px">
           AK
           <Text color={orange} as="span">
             HIL

@@ -10,12 +10,13 @@ import {
 } from "@chakra-ui/react";
 import React from "react";
 import { darkSecond, orange, dark } from "./Navbar";
+import './responsive.css';
 
 const About = () => {
   return (
     <Box mt="-25px" bg={darkSecond}>
       <Flex pt="50px" bg={darkSecond} justifyContent="center">
-        <Heading fontSize="30px">
+        <Heading id="akhil" fontSize="30px">
           All{" "}
           <Heading fontSize="30px" color={orange} as="span">
             About me

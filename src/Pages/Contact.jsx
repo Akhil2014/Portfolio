@@ -15,6 +15,7 @@ import React from "react";
 import { dark, orange, darkSecond } from "./Navbar";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
+import './responsive.css';
 
 const Contact = () => {
   return (

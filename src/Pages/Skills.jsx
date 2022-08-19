@@ -10,6 +10,7 @@ import {
 import React from "react";
 import { dark, darkSecond, orange } from "./Navbar";
 import skills from "../Components/Data/Skills";
+import './responsive.css';
 
 const Skills = () => {
   return (

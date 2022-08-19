@@ -2,6 +2,7 @@ import { Box, Flex, Grid, Heading } from "@chakra-ui/react";
 import React from "react";
 import Card from "../Components/Card";
 import { dark, orange } from "./Navbar";
+import './responsive.css';
 
 const Work = () => {
   const arr = new Array(10).fill(0)

@@ -2,6 +2,7 @@ import { Box, Flex, Heading, Stack, Button, Text, Image } from "@chakra-ui/react
 import React from "react";
 import { dark, orange, darkSecond } from "./Navbar";
 import Typewriter from "typewriter-effect";
+import './responsive.css';
 
 const Home = () => {
   return (
