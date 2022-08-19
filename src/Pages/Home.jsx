@@ -57,6 +57,7 @@ const Home = () => {
       </Flex>
       <Flex w="30%" justifyContent="center" alignItems="center">
         <Box w="70%" h="300px" rounded="50%" bg="orange">
+          <Image src="../Components/Images/akhilbg.png" />
         </Box>
       </Flex>
     </Flex>
