@@ -1,6 +1,7 @@
 import { Box, Flex, Grid, Heading } from "@chakra-ui/react";
 import React from "react";
 import Card from "../Components/Card";
+import { project } from "../Components/Data/Project";
 import { dark, orange } from "./Navbar";
 import './responsive.css';
 
@@ -18,7 +19,7 @@ const Work = () => {
       </Box>
       <Grid w="80%" margin="auto" templateColumns="repeat(3, 1fr)" gap={100}>
         {
-          arr.map((e) => <Card key={e} /> )
+          project.map(({id,title , description, tech , img ,links }) => <Card key={id} title={title} description={description} tech={tech} img={img}  links={links}/> )
         
         }
       </Grid>
