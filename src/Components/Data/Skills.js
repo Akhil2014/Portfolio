@@ -57,6 +57,22 @@ const skills = [
     }, {
         icon:"https://img.icons8.com/nolan/64/api-settings.png",
         text:"REST API"
+    },
+    {
+        icon:"https://ankitmishra-portfolio.netlify.app/images/ExpressJS.png",
+        text:"EXPRESS"
+    },
+    {
+        icon:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+        text:"NODE JS"
+    },
+    {
+        icon:"https://img.icons8.com/color/50/000000/mongodb.png",
+        text:"MONGO DB"
+    },
+    {
+        icon:"https://ankitmishra-portfolio.netlify.app/images/mongoose.png",
+        text:"MONGOOSE"
     }
   
 ]

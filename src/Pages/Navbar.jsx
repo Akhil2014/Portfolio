@@ -36,7 +36,7 @@ const Navbar = () => {
     >
       <Flex
         ml="10px"
-        w="10%"
+        w={[ "100%","100%","100%","10%","10%"]}
         textAlign="center"
         justifyContent="center"
         alignItems="center"
@@ -49,6 +49,7 @@ const Navbar = () => {
         </Text>
       </Flex>
       <Flex
+        display={["none" , "none" , "none", "flex " , "flex"]}
         width="50%"
         justifyContent="space-around"
         alignItems="center"
@@ -141,7 +142,7 @@ const Navbar = () => {
             Contact
           </Link>
         </Text>
-        <a style={{textDecoration:"none" , color:"white"}} target="#" href="https://drive.google.com/file/d/1pWtbmMwNKwva6Yi773Hdxww43xVJnijP/view?usp=sharing">
+        <a style={{textDecoration:"none" , color:"white"}} target="#" href="https://drive.google.com/file/d/1yW4Ijo-F_p-RHZEAynzWj8sb_IAijaZp/view">
         <Text
           _hover={{
             bg: orange,

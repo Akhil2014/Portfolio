@@ -4,7 +4,7 @@ import { dark, orange, darkSecond } from "../Pages/Navbar";
 import { BsFillCameraVideoFill, BsFillEyeFill, BsGithub } from "react-icons/bs";
 const Card = ({ title, description, tech, links,img }) => {
   return (
-    <Box w="330px" rounded={10} bg={darkSecond} h="530px" p="10px">
+    <Box w={["350px","350px","350px" ,"400px", "400px"]} m="auto" rounded={10} bg={darkSecond} h="530px" p="10px">
       <Stack>
         <Image rounded={10} h="220px" w="100%" src={img} />
         <Box color="white" textAlign="center">
@@ -17,7 +17,7 @@ const Card = ({ title, description, tech, links,img }) => {
             {tech.join(" ,")}
           </Text>
         </Text>
-        <HStack spacing={70}>
+        <HStack  spacing={70}>
           <a style={{color:"black"}}>
             <Box
               rounded="50%"

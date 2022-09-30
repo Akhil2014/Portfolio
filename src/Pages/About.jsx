@@ -24,12 +24,12 @@ const About = () => {
         </Heading>
       </Flex>
       <Flex h="700px" justifyContent="space-around" bg={darkSecond}>
-        <Flex w="50%" justifyContent="center">
+        <Flex  display={["none" , "none" , "none" ,"flex" ,"flex"]} w="50%" justifyContent="center">
           <Box w="100%" h="400px">
             <Image  w="700px" h="500px" src="https://portfolio-m-sehrawat.vercel.app/developerActivity.svg" />
           </Box>
         </Flex>
-        <Flex  w="50%" justifyContent="center" alignItems="center">
+        <Flex   w={["100%" , "100%", "100%" , "50%","50%"]} justifyContent="center" alignItems="center">
           <Stack w="450px" h="600px">
             <UnorderedList color="white" fontSize={20}>
               <ListItem mb="20px">

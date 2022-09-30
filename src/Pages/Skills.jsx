@@ -14,7 +14,7 @@ import './responsive.css';
 
 const Skills = () => {
   return (
-    <Box bg={darkSecond} h="600px">
+    <Box m="auto" bg={darkSecond} h="auto">
       <Flex pt="40px" bg={darkSecond} justifyContent="center">
         <Heading fontSize="30px">
           My{" "}
@@ -24,11 +24,12 @@ const Skills = () => {
         </Heading>
       </Flex>
       <Grid
-        templateColumns="repeat(6, 1fr)"
-        w="70%"
+        templateColumns={["repeat(2, 1fr)","repeat(3, 1fr)","repeat(4, 1fr)","repeat(6, 1fr)","repeat(8, 1fr)"]}
+        w="auto"
+        p="20px"
         margin="auto"
         gap={6}
-        h="400px"
+        h="auto"
         bg={darkSecond}
       >
         {skills.map(({icon,text}) => {

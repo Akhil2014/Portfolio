@@ -80,13 +80,13 @@ const Contact = () => {
         </Heading>
       </Flex>
       <Flex h="600px" bg={dark} justifyContent="space-around">
-        <Flex w="40%" justifyContent="center" alignItems="center">
+        <Flex display={["none" , "none" , "none" ,"flex" ,"flex"]} w="40%" justifyContent="center" alignItems="center">
           <Image
             w="600px"
             src="https://portfolio-m-sehrawat.vercel.app/developerActivity.svg"
           />
         </Flex>
-        <VStack w="30%" pt="150px" overflow="hidden">
+        <VStack w={["100%" , "100%" , "100%", "30%","30%"]} pt="150px" overflow="hidden">
           <Stack direction="row" spacing={25}>
             <a
               style={{ textDecoration: "none" }}
@@ -97,8 +97,6 @@ const Contact = () => {
                 _hover={{ cursor: "pointer" }}
                 color="black"
                 fontSize="17px"
-                w="120px"
-                h="45px"
                 rounded={5}
                 border="none"
                 leftIcon={<BsGithub />}
@@ -117,8 +115,6 @@ const Contact = () => {
                 _hover={{ cursor: "pointer" }}
                 color="black"
                 fontSize="17px"
-                w="120px"
-                h="45px"
                 rounded={5}
                 border="none"
                 leftIcon={<BsLinkedin />}
@@ -131,8 +127,6 @@ const Contact = () => {
             <Button
               _hover={{ cursor: "pointer" }}
               onClick={() => alert("mdakhilkhan2014@gmail.com")}
-              w="120px"
-              h="45px"
               rounded={5}
               border="none"
               rightIcon={<AiOutlineMail />}

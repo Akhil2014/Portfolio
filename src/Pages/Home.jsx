@@ -7,24 +7,24 @@ import './responsive.css';
 const Home = () => {
   return (
     <Flex h="800px" bg={dark} justifyContent="space-around">
-      <Flex w="40%" justifyContent="center" alignItems="center">
-        <Box w="100%" h="400px">
+      <Flex  w={["100%" , "100%" , "100%" , "40%","40%"]} justifyContent="center" alignItems="center">
+        <Stack  textAlign={["center","center","center","",""] }spacing={1} w="100%" h="400px">
           <Box mt="70px">
             {" "}
-            <Text  color="white" fontSize="35px" fontWeight="bold" fontFamily="sans-sarif">
+            <Text  color="white" fontSize={["15px","20px","25px","35px","35px"]} fontWeight="bold" fontFamily="sans-sarif">
               Hello , my name is
             </Text>
           </Box>
           <Box mt="-95px">
             {" "}
-            <Text color="white"  fontSize="100px" fontWeight="bold" fontFamily="monospace">
+            <Text color="white"  fontSize={["50px","60px","70px","100px","100px"]} fontWeight="bold" fontFamily="monospace">
               Akhil Khan
             </Text>
           </Box>
           <Box mt="-95px">
             {" "}
             <Text
-              fontSize="35px"
+              fontSize={["30px","30px","30px","35px","35px"]}
               fontWeight="bold"
               fontFamily="sans-sarif"
               color={orange}
@@ -39,7 +39,7 @@ const Home = () => {
               />
             </Text>
           </Box>
-        <a style={{textDecoration:"none"}} target="#" href="https://drive.google.com/file/d/1pWtbmMwNKwva6Yi773Hdxww43xVJnijP/view?usp=sharing">
+        <a style={{textDecoration:"none"}} target="#" href="https://drive.google.com/file/d/1yW4Ijo-F_p-RHZEAynzWj8sb_IAijaZp/view">
           <Button
             _hover={{ colorScheme: { orange }, variant: "outline" }}
             h="45px"
@@ -55,9 +55,9 @@ const Home = () => {
             Resume
           </Button>
           </a>
-        </Box>
+        </Stack>
       </Flex>
-      <Flex w="30%" justifyContent="center" alignItems="center">
+      <Flex display={["none" ,"none" ,"none" ,"flex" ,"flex"]} w="30%" justifyContent="center" alignItems="center">
         <Box w="70%" h="295px" rounded="50%" bg="orange" overflow="hidden">
           <Image ml="20px"  src="https://i.ibb.co/wQn81r0/akhilbg.png" />
         </Box>
