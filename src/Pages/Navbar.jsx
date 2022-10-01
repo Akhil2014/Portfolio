@@ -138,24 +138,27 @@ const Navbar = () => {
           }}
           fontSize="20px"
         >
-          <Link onClick={() => handlePage(5)} to="contact" smooth={true}>
-            Contact
+          <Link onClick={() => handlePage(5)} to="graph" smooth={true}>
+            Github
           </Link>
         </Text>
-        <a style={{textDecoration:"none" , color:"white"}} target="#" href="https://drive.google.com/file/d/1yW4Ijo-F_p-RHZEAynzWj8sb_IAijaZp/view">
         <Text
+          color={page === 6 ? orange : ""}
+          textDecoration={page === 6 ? "underline" : ""}
           _hover={{
             bg: orange,
             p: "10px",
+            color: "white",
             rounded: "10px",
             transition: "all 0.2s",
             cursor: "pointer",
           }}
           fontSize="20px"
         >
-          Resume
+          <Link onClick={() => handlePage(6)} to="contact" smooth={true}>
+            Contact
+          </Link>
         </Text>
-        </a>
       </Flex>
     </Flex>
   );

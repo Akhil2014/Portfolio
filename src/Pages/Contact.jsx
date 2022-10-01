@@ -71,7 +71,7 @@ const Contact = () => {
   };
   return (
     <Box>
-      <Flex pt="40px" bg={dark} justifyContent="center">
+      <Flex pt="40px" bg={darkSecond} justifyContent="center">
         <Heading fontSize="30px">
           Chat And{" "}
           <Heading fontSize="30px" color={orange} as="span">
@@ -79,7 +79,7 @@ const Contact = () => {
           </Heading>
         </Heading>
       </Flex>
-      <Flex h="600px" bg={dark} justifyContent="space-around">
+      <Flex h="600px" bg={darkSecond} justifyContent="space-around">
         <Flex display={["none" , "none" , "none" ,"flex" ,"flex"]} w="40%" justifyContent="center" alignItems="center">
           <Image
             w="600px"

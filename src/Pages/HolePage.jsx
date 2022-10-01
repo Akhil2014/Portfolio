@@ -5,6 +5,7 @@ import About from "./About";
 import Skills from "./Skills";
 import Work from "./Work";
 import Contact from "./Contact";
+import Graph from "./Graph";
 
 const HolePage = () => {
   return (
@@ -20,6 +21,9 @@ const HolePage = () => {
       </Box>
       <Box id="skills">
         <Skills />
+      </Box>
+      <Box id="graph">
+        <Graph />
       </Box>
       <Box id="contact">
         <Contact />
