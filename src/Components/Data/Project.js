@@ -5,7 +5,7 @@ export const project = [
         title:"Indeed Clone",
         description:"Indeed is a free service to job seekers, where you can upload a resume, create job alert emails, search for jobs, save them and apply to them directly.",
         tech:["HTML" , "CSS" ,"REACT" ,"REDUX","MATERIAL UI", "REST-API" , "GIT"],
-        links:["https://github.com/Akhil2014/E-commerce-Website" , "https://62f3cfcfd9a68770c0046ede--akhilstore.netlify.app/products"]
+        links:["https://github.com/Akhil2014/Indeed.com" , "https://indeed-tau.vercel.app/"]
 
 
     },

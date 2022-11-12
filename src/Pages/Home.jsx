@@ -58,8 +58,8 @@ const Home = () => {
         </Stack>
       </Flex>
       <Flex display={["none" ,"none" ,"none" ,"flex" ,"flex"]} w="30%" justifyContent="center" alignItems="center">
-        <Box w="70%" h="295px" rounded="50%" bg="orange" overflow="hidden">
-          <Image ml="20px"  src="https://i.ibb.co/wQn81r0/akhilbg.png" />
+        <Box w="70%" h="295px" rounded="50%" bg="white" overflow="hidden">
+          <Image  src="https://avatars.githubusercontent.com/u/71203865?v=4" />
         </Box>
       </Flex>
     </Flex>

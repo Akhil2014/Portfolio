@@ -59,7 +59,7 @@ const skills = [
         text:"REST API"
     },
     {
-        icon:"https://ankitmishra-portfolio.netlify.app/images/ExpressJS.png",
+        icon:"https://devashishsaurabhportfolio.netlify.app/assets/img/express.png",
         text:"EXPRESS"
     },
     {
@@ -71,7 +71,7 @@ const skills = [
         text:"MONGO DB"
     },
     {
-        icon:"https://ankitmishra-portfolio.netlify.app/images/mongoose.png",
+        icon:"https://miro.medium.com/max/1050/1*acfAKaDI7uv5GyFnJmiPhA.png",
         text:"MONGOOSE"
     }
   
