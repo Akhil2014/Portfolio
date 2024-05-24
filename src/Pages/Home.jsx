@@ -17,7 +17,7 @@ const Home = () => {
           </Box>
           <Box mt="-95px">
             {" "}
-            <Text color="white"  fontSize={["50px","60px","70px","100px","100px"]} fontWeight="bold" fontFamily="monospace">
+            <Text color="white"  fontSize={["40px","60px","70px","100px","100px"]} fontWeight="bold" fontFamily="monospace">
               Akhil Khan
             </Text>
           </Box>
@@ -39,7 +39,7 @@ const Home = () => {
               />
             </Text>
           </Box>
-        <a style={{textDecoration:"none"}} target="#" href="https://drive.google.com/file/d/11C1ZIo3BtwaJ6-D2eTHUj83crs-BiuvS/view?usp=sharing">
+        <a style={{textDecoration:"none"}} target="#" href="https://drive.google.com/file/d/1LTckbOi9Az-mHlC1zF0HLdCFQhXVIT7I/view">
           <Button
             _hover={{ colorScheme: { orange }, variant: "outline" }}
             h="45px"
