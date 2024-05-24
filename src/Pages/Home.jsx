@@ -17,7 +17,7 @@ const Home = () => {
           </Box>
           <Box mt="-95px">
             {" "}
-            <Text color="white"  fontSize={["40px","60px","70px","100px","100px"]} fontWeight="bold" fontFamily="monospace">
+            <Text color="white"  fontSize={["30px","50px","50px","60px","60px"]} fontWeight="bold" fontFamily="monospace">
               Akhil Khan
             </Text>
           </Box>
@@ -32,7 +32,15 @@ const Home = () => {
               <Typewriter 
                 onInit={(typewriter) => {
                   typewriter
-                    .typeString("I'm a Full Stack Developer.")
+                    .typeString("I am Full Stack Developer.")
+                    .pauseFor(1000)
+                    .start();
+                }}
+              />
+              <Typewriter 
+                onInit={(typewriter) => {
+                  typewriter
+                    .typeString("1+ year of experience.")
                     .pauseFor(1000)
                     .start();
                 }}
