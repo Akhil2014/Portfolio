@@ -40,7 +40,7 @@ const Home = () => {
               <Typewriter 
                 onInit={(typewriter) => {
                   typewriter
-                    .typeString("1+ year of experience.")
+                    .typeString("with over 1+ year of experience.")
                     .pauseFor(1000)
                     .start();
                 }}

@@ -36,19 +36,13 @@ const About = () => {
           </Heading>
             <UnorderedList color="white" fontSize={20}>
               <ListItem mb="20px">
-                Hello , I am Akhil Khan and I enjoy doing coding{" "}
+              Hello, I am Akhil Khan, and I enjoy coding.
               </ListItem>
               <ListItem mb="20px">
-                An aspiring Full Stack Developer with 800+ hours of coding
-                experience in JavaScript.
+              I am an aspiring Full Stack Developer with 800+ hours of coding experience in JavaScript. I am a dedicated team player, enthusiastic to be part of a reputed company, and always looking forward to learning something new to strengthen my skills.
               </ListItem>
               <ListItem mb="20px">
-                A dedicated team player enthusiastic to be part of a reputed
-                company. Always looking forward to learning something new to
-                strengthen skills learned.
-              </ListItem>
-              <ListItem mb="20px">
-                Fast Forwarding to today, I built a number of web applications and 3 major projects. learned a great deal about teamwork, leadership, and communication.
+              Fast Forwarding to today, I built a number of web applications and 3 major projects. learned a great deal about teamwork, leadership, and communication.
               </ListItem>
             </UnorderedList>
           </Stack>
@@ -61,23 +55,16 @@ const About = () => {
           </Heading>
     <UnorderedList color="white" fontSize={20}>
     <ListItem mb="20px">
-       Working as Software Developer at Cointab Software Private Limited.
+       Working as a Software Developer at Cointab Software Private Limited.
       </ListItem>
       <ListItem mb="20px">
-        Engineered and integrated an advanced access control
-        feature, significantly enhancing system security and
-        mitigating unauthorized access risks.
+      Engineered and integrated an advanced access control feature, significantly enhancing system security and mitigating unauthorized access risks.
       </ListItem>
       <ListItem mb="20px">
-        Architected and developed multiple new features from
-        inception to deployment, leveraging innovative solutions
-        and best practices to meet evolving user requirements
-        and industry standards.
+      Architected and developed multiple new features from inception to deployment, leveraging innovative solutions and best practices to meet evolving user requirements and industry standards.
       </ListItem>
       <ListItem mb="20px">
-        Implemented real-time bug-fixing strategies, ensuring
-        seamless operation and reliability of the product under
-        dynamic usage scenarios.
+      Implemented real-time bug-fixing strategies, ensuring seamless operation and reliability of the product under dynamic usage scenarios.
       </ListItem>
     </UnorderedList>
   </Stack>
