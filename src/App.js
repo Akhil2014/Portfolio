@@ -8,7 +8,7 @@ function App() {
   return (
     <Box w="100%" bg={dark}>
       <Navbar />
-     <HolePage />
+      <HolePage />
     </Box>
   );
 }
