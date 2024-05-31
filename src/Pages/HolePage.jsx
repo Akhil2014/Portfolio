@@ -22,7 +22,7 @@ const HolePage = () => {
       <Box id="skills">
         <Skills />
       </Box>
-      <Box id="graph">
+      <Box id="github">
         <Graph />
       </Box>
       <Box id="contact">
