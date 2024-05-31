@@ -66,7 +66,7 @@ const Home = () => {
         </Stack>
       </Flex>
       <Flex display={["none" ,"none" ,"none" ,"flex" ,"flex"]} w="30%" justifyContent="center" alignItems="center">
-        <Box w={["45%","55%","60%","75%"]} h={["200px","200px","200px","240px","295px"]} rounded="50%" bg="white" overflow="hidden">
+        <Box w={["45%","55%","60%","75%"]} h={["200px","200px","200px","225px","295px"]} rounded="50%" bg="white" overflow="hidden">
           <Image  src="https://avatars.githubusercontent.com/u/71203865?v=4" />
         </Box>
       </Flex>
