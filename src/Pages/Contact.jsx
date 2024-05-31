@@ -70,7 +70,7 @@ const Contact = () => {
   return (
     <Box>
       <Flex pt="40px" bg={darkSecond} justifyContent="center">
-        <Heading fontSize="30px">
+        <Heading fontSize="30px" color="white">
           Chat And{" "}
           <Heading fontSize="30px" color={orange} as="span">
             Connect With Me

@@ -30,7 +30,7 @@ const About = () => {
             <Image  w="700px" h="500px" src="https://portfolio-m-sehrawat.vercel.app/developerActivity.svg" />
           </Box>
         </Flex> */}
-        <Flex w={["100%", "100%", "100%", "50%", "50%"]} justifyContent="center" alignItems="center">
+        <Flex w={["100%", "100%", "100%", "50%", "50%"]} p={['4%','4%','4%','4%','4%','4%']} justifyContent="center" alignItems="center">
           <Stack w="450px" h="600px">
             <Heading fontSize="30px" mb={"5"} color={orange} as="span">
               About me
@@ -48,7 +48,7 @@ const About = () => {
             </UnorderedList>
           </Stack>
         </Flex>
-        <Flex w={["100%", "100%", "100%", "50%", "50%"]} mt={["-5%","-20%","-20%","20%","2%","5%"]} justifyContent="center" alignItems="center">
+        <Flex w={["100%", "100%", "100%", "50%", "50%"]} p={['4%','4%','4%','4%','4%','4%']} justifyContent="center" alignItems="center">
 
           <Stack w="450px" h="600px">
             <Heading fontSize="30px" mb={"5"} color={orange} as="span">

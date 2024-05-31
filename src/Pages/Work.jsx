@@ -10,7 +10,7 @@ const Work = () => {
   return (
     <Box  pt="100px" mt="-20px" h="auto" bg={dark} pb="40px">
       <Box textAlign="center">
-        <Heading fontSize="35px">
+        <Heading fontSize="35px" color="white">
           My{" "}
           <Heading color={orange} as="span">
             Projects

@@ -24,7 +24,7 @@ const Card = ({ title, description, tech, links,img }) => {
               p="15px"
               _hover={{ bg: orange, transition: "all 1s", color: "white" }}
             >
-              <BsFillCameraVideoFill size="30px" />
+              <BsFillCameraVideoFill  size="30px" color="white" />
             </Box>
           </a>
           <a style={{color:"black"}} href={links[0]} target="#">
@@ -33,7 +33,7 @@ const Card = ({ title, description, tech, links,img }) => {
               p="15px"
               _hover={{ bg: orange, transition: "all 1s", color: "white" }}
             >
-              <BsGithub size="30px" />
+              <BsGithub size="30px" color="white" />
             </Box>
           </a>
           <a style={{color:"black"}} href={links[1]} target="#">
@@ -42,7 +42,7 @@ const Card = ({ title, description, tech, links,img }) => {
               p="15px"
               _hover={{ bg: orange, transition: "all 1s", color: "white" }}
             >
-              <BsFillEyeFill size="30px" />
+              <BsFillEyeFill size="30px" color="white" />
             </Box>
           </a>
         </HStack>
